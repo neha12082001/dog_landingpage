@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Satisfy&display=swap" rel="stylesheet">
+
+
+
+
+    
+    <title>Document</title>
+
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    /* background-image: url(./Web_Photo_Editor.jpg); */
+    background-image: url(./WhatsApp\ Image\ 2024-03-05\ at\ 10.14.55\ PM.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+.navbar {
+    position: relative;
+    width: 100%;
+    height: 15%;
+    gap: 100px;
+    display: flex;
+    align-items: center;
+    
+}
+.navbar ul li{
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10vh;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-family: "Noto Sans", sans-serif;
+    color: white;
+    padding: 10px;
+   
+}
+.navbar h1 {
+    margin-left: 10vh;
+    font-size: 60px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+    margin-left: 100px;
+    
+}
+.navbar h1 span{
+    color: rgb(172, 172, 51);
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+}
+
+.navbar .fa-minus{
+    font-size: 50px;
+}
+
+.left{
+    width: 50%;
+    height: 100%;
+
+    
+}
+.left .pure{
+    position: relative;
+    font-family: "Satisfy", cursive;
+    color: rgb(241, 163, 60);
+    font-size: 10vh;
+    margin-left:50%;
+    margin-top: 20vh;
+    font-style: italic;
+}
+
+.left .cuteness{
+    margin-left:52%;
+    margin-top: -5vh;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 90px;
+    
+}
+.left .dot{
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+}
+
+.left .info{
+    height: 15%;
+    width: 50%;
+    display: flex;
+    margin-left: 53%;
+    margin-top: 2%;
+}
+
+.left .leftdate{
+    display: inline-block;
+    height: 100%;
+    width: 20%;
+}
+.left .leftdate h2,
+.left .leftdate span {
+    display: inline;
+    font-family: "Roboto", sans-serif;
+}
+
+.left .leftdate h2{
+    color: rgb(244, 179, 94);
+}
+.left .leftdate span {
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    
+}
+.left .rightinfo{
+    height: 100%;
+    width: 60%;
+}
+.left .rightinfo p{
+    margin-left: 10px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 250;
+    font-size: 15px;
+}
+
+
+.right{
+    width: 50%;
+    height: 100%; 
+}
+.right img {
+    /* max-width: 100%; */
+    position: absolute; 
+    top: 60%; 
+    transform: translateY(-50%); 
+    /* right: 400px;  */
+    right: 400px;
+    height: 700px;
+}
+.navbar i{
+    color: white;
+    margin-left: 45%;
+}
+
+.footer{
+    color: white;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <h1>g<span>.</span></h1>
+            <ul>
+                <li><a href="">Inspiration</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+            <i class="fa-solid fa-minus"></i>
+
+        </div>
+        <div class="left">
+            <h1 class="pure">pure</h1>
+            <h1 class="cuteness">cuteness<span class="dot">.</span></h1>
+            <div class="info">
+                <div class="leftdate"><h2 class="date">02</h2><span class="monthdate">/04</span></div>
+                <div class="rightinfo">
+                    <p>A puppy is a Juvenile dog.<br>Some puppies can weight 1-1.5 <br>kg,while larger ones can weight <br>up to 7-11kg.</p>
+                </div>
+
+                <p>hello</p>
+            </div>
+        </div>
+        <div class="right">
+            <img src="./bg-image.png" alt="">
+
+
+           
+        </div>
+
+        
+
+  
+</body>
+</html>
